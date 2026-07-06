@@ -28,8 +28,8 @@ const locationTestData = [
 
 // 참여자 목록 
 const participantTestData = [
-  { id: 1, name: "지민", station: "강남역" },
-  { id: 2, name: "말랑 복숭아 (나)", station: "외대앞역" },
+  { id: 1, name: "말랑 복숭아 (나)", station: "외대앞역" },
+  { id: 2, name: "지민", station: "강남역", },
   { id: 3, name: "서연", station: "홍대입구역" }
 ];
 
@@ -42,7 +42,7 @@ export default function App() {
 
       <div style={{ height: '20px' }} />
       
-      {/*  출발지 리스트 */}
+  
       {locationTestData.map((item) => (
         <LocationItem 
           key={item.id}
@@ -56,14 +56,15 @@ export default function App() {
       <div style={{ height: '20px' }} />
 
 
-      {participantTestData.map((user) => (
-        <ParticipantItem 
-          key={user.id}
-          initial={user.initial}
-          name={user.name}
-          station={user.station}
-        />
-      ))}
+      <div className="participant-list-container">
+        {participantTestData.map((user) => (
+          <ParticipantItem 
+            key={user.id} 
+            name={user.name} 
+            station={user.station} 
+          />
+        ))}
+      </div>
 
       <div style={{ height: '20px' }} />
 

@@ -4,7 +4,7 @@
   gap: 14px;
   padding: 18px 16px;
   background-color: #ffffff;
-  border: 1px solid #e2e2e2;
+  border: 1px solid #d9d9d9;
   border-radius: 20px; 
   box-sizing: border-box;
   width: 100%;
@@ -12,11 +12,10 @@
 }
 
 
+
 .participant-avatar {
   width: 36px;
   height: 36px;
-  background-color: #e8efff; 
-  color: #3661ec;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -24,6 +23,30 @@
   font-size: 16px;
   font-weight: 600;
   flex-shrink: 0;
+  color: #ffffff;
+
+  box-sizing: border-box; /* 패딩이 원 크기에 영향을 주지 않도록 고정 */
+  padding-bottom: 2px;   /* 글자를 위로 2px 올리기 */
+  padding-right: 1px;
+}
+
+
+.participant-card:nth-child(1) .participant-avatar {
+  background-color: #acb4fe;
+}
+
+
+.participant-card:nth-child(2) .participant-avatar {
+  background-color: #5498ff;
+}
+
+.participant-card:nth-child(3) .participant-avatar {
+  background-color: #3e5ecf;
+}
+
+
+.participant-card:nth-child(4) .participant-avatar {
+  background-color: #3298b2;
 }
 
 
@@ -38,7 +61,7 @@
   margin: 0;
   font-size: 16.5px;
   font-weight: 500;
-  color: #757575;
+  color: #767676;
 }
 
 
@@ -46,5 +69,5 @@
   margin: 0;
   font-size: 13px;
   font-weight: 500;
-  color: #757575;
+  color: #767676;
 }

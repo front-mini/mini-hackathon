@@ -18,7 +18,7 @@
 
 /* 1. 파란 버튼 */
 .custom-btn.blue {
-  background: linear-gradient(90deg, #3698fc 0%, #3f63d2 100%);
+  background: linear-gradient(90deg, #3598fe 0%, #3e62d2 100%);
   color: #ffffff;
   border: none;
   box-shadow: 0 8px 20px rgba(54, 97, 236, 0.18);
@@ -27,8 +27,8 @@
 /* 2. 흰 버튼 */
 .custom-btn.white {
   background-color: #ffffff;
-  color: #1a1a1a; 
-  border: 1.3px solid #dfdfdf; 
+  color: #212121; 
+  border: 1.3px solid #e9e9e9; 
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
