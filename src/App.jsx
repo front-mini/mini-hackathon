@@ -28,9 +28,9 @@ const locationTestData = [
 
 // 참여자 목록 
 const participantTestData = [
-  { id: 1, initial: "지", name: "지민", station: "강남역" },
-  { id: 2, initial: "말", name: "말랑 복숭아 (나)", station: "외대앞역" },
-  { id: 3, initial: "서", name: "서연", station: "홍대입구역" }
+  { id: 1, name: "지민", station: "강남역" },
+  { id: 2, name: "말랑 복숭아 (나)", station: "외대앞역" },
+  { id: 3, name: "서연", station: "홍대입구역" }
 ];
 
 export default function App() {
