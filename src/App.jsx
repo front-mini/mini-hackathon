@@ -37,7 +37,7 @@ export default function App() {
   return (
     <div style={{ maxWidth: '390px', margin: '40px auto', padding: '0 16px' }}>
 
-      <ScheduleList label="제목 (선택)" value="제목을 입력해 주세요" />
+      <ScheduleList label="제목 (필수)" value="제목을 입력해 주세요" />
       <ScheduleList label="날짜 / 시간 (선택)" value="아직 미정이에요" />
 
       <div style={{ height: '20px' }} />

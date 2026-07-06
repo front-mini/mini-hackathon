@@ -13,8 +13,8 @@
 
 
 .participant-avatar {
-  width: 44px;
-  height: 44px;
+  width: 36px;
+  height: 36px;
   background-color: #e8efff; 
   color: #3661ec;
   border-radius: 50%;
@@ -36,7 +36,7 @@
 
 .participant-name {
   margin: 0;
-  font-size: 16px;
+  font-size: 16.5px;
   font-weight: 500;
   color: #757575;
 }
@@ -45,5 +45,6 @@
 .participant-station {
   margin: 0;
   font-size: 13px;
+  font-weight: 500;
   color: #757575;
 }
