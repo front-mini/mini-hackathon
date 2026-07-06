@@ -1,0 +1,49 @@
+.participant-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 16px;
+  background-color: #ffffff;
+  border: 1px solid #e2e2e2;
+  border-radius: 20px; 
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+
+.participant-avatar {
+  width: 44px;
+  height: 44px;
+  background-color: #e8efff; 
+  color: #3661ec;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+
+.participant-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+
+.participant-name {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #757575;
+}
+
+
+.participant-station {
+  margin: 0;
+  font-size: 13px;
+  color: #757575;
+}
