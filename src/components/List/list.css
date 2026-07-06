@@ -1,0 +1,20 @@
+.list {
+  border-bottom: 1px solid rgba(0, 45, 86, 1);
+  padding: 15px 10px; 
+  margin-left: 5px;
+}
+
+.list h3, .list p {
+  margin: 0;     
+  margin-bottom: 5px; 
+}
+
+
+.list p:last-child {
+  margin-bottom: 0;
+}
+
+.name {
+  font-size: 14px;
+  color: #666;
+}

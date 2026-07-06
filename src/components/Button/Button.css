@@ -1,0 +1,28 @@
+/*버튼*/
+.custom-btn {
+  width: 100%;
+  padding: 18px 0; /* 위아래 패딩으로 높이 조절 */
+  border-radius: 16px; /* 이미지의 둥근 모서리 */
+  font-size: 16px;
+  font-weight: 700; /* Bold */
+  text-align: center;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+/* 파란 버튼*/
+.custom-btn.blue {
+  background: linear-gradient(90deg, #4d84ff 0%, #3b59ff 100%);
+  color: #ffffff;
+  border: none;
+}
+
+/* 흰 버튼*/
+.custom-btn.white {
+  background-color: #ffffff;
+  color: #3b59ff;
+  border: 1px solid #f0f0f0;
+  /* 살짝 아래로 깔리는 부드러운 그림자 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03); 
+}
