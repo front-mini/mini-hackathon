@@ -6,7 +6,6 @@ export default function ParticipantItem({ name, station }) {
 
   return (
     <div className="participant-card">
-      {/* 이제 name의 첫 글자가 자동으로 여기에 들어갑니다 */}
       <div className="participant-avatar">
         {initial}
       </div>
