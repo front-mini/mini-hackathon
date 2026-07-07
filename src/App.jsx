@@ -14,14 +14,12 @@ const locationTestData = [
     id: 1,
     title: "외대앞역 1호선",
     address: "6.9km · 서울 동대문구 휘경로 27 (이문동)",
-    isSubway: true,
     isSelected: true
   },
   {
     id: 2,
     title: "외대앞역 공영주차장",
     address: "6.8km · 서울 동대문구 휘경로 28 (이문동)",
-    isSubway: false,
     isSelected: false
   }
 ];
