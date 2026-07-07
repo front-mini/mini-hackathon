@@ -1,0 +1,38 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPage > div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainPage img {
+    width: 70%;
+}
+
+.mainPage > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+
+.mainPage > div > div > p:first-child {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.mainPage > div > div > p:last-child {
+    font-size: 1rem;
+    color: #767676;
+}
+
+.mainPage > div > div span {
+    color: #359AFF;
+}

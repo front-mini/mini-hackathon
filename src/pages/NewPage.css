@@ -1,0 +1,15 @@
+.newPage {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.newPage h1 > span {
+    color: #5498FF;
+}
+
+.newPage > div:last-child {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

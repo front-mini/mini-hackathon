@@ -1,17 +1,13 @@
-import React from 'react';
+import { React, useState } from 'react';
 import './ScheduleList.css';
 
-export default function AppointmentItem({ label, value }) {
+export default function AppointmentItem({ icon, title, placeholder, type }) {
   return (
     <div className="appointment-card">
-      {/* 아이콘 자리*/}
-      <div className="appointment-icon-wrapper">
-      </div>
-
-
+      <img src={icon} alt="icon" />
       <div className="appointment-info">
-        <span className="appointment-label">{label}</span>
-        <span className="appointment-value">{value}</span>
+        <p className="appointment-label">{title}</p>
+        <input type={type} className="appointment-value" placeholder={placeholder} />
       </div>
     </div>
   );

@@ -1,27 +1,19 @@
 .custom-btn {
   width: 100%;
   padding: 18px 0;
-  border-radius: 14px;
+  border-radius: 8px;
   font-size: 18px;
-  font-weight: 500; 
+  font-weight: 600; 
   text-align: center;
-  cursor: pointer;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-
-
-  
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
+  font-family: 'Pretendard';
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.16);
 }
 
 /* 1. 파란 버튼 */
 .custom-btn.blue {
-  background: linear-gradient(90deg, #3598fe 0%, #3e62d2 100%);
+  background: linear-gradient(90deg, #359aff 0%, #3e5ecf 100%);
   color: #ffffff;
   border: none;
-  box-shadow: 0 8px 20px rgba(54, 97, 236, 0.18);
 }
 
 /* 2. 흰 버튼 */
@@ -29,7 +21,6 @@
   background-color: #ffffff;
   color: #212121; 
   border: 1.3px solid #e9e9e9; 
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
 }
 
 /* 3. 회색 버튼 */
@@ -37,5 +28,5 @@
   background-color: #c8c8c8;
   color: #ffffff; 
   border: none;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.06);
 }
